@@ -1,22 +1,11 @@
 <div class="container">
-  <h1>Welcome to Bii!</h1>
-  <p>
-    Here is a table of test items inside of
-    <a href="https://datatables.net/">Datatables</a>
-  </p>
-
-
-
-  <?= $this->renderView('_templates/table.php',array(
-    'items' => $items,
-  )); ?>
-
-
+  <div class="jumbotron">
+    <h1 class="display-3">Welcome</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
+  </div>
 </div>
-<script type="text/javascript">
-  jQuery(document).ready(function(){
-    $('table').DataTable({
-
-    });
-  });
-</script>
